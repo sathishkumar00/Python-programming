@@ -6,4 +6,4 @@ q=int(p[1])
 for i in range(n+1,q):
       if(i%2!=0):
            l.append(i)
-print(l)
+print(*l,sep=" ")
