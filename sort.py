@@ -1,6 +1,5 @@
 p=int(input())
 q=input()
 q=q.split(" ")
-q=list(map(int,q))
 q.sort()
 print(*q,sep=" ")
