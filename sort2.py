@@ -1,0 +1,6 @@
+d=int(input())
+e=input()
+e=e.split(" ")
+e=list(map(int,e))
+f=sorted(e)
+print(*f,sep=" ")
