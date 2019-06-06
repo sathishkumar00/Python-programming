@@ -1,0 +1,6 @@
+p=int(input())
+q=input()
+q=q.split(" ")
+q=list(map(int,q))
+r=sorted(q)
+print(r*,sep=" ")
