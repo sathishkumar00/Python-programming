@@ -1,5 +1,5 @@
 p=int(input())
 q=input()
 q=q.split(" ")
-q.sort()
-print(*q,sep=" ")
+r=sorted(q)
+print(*r,sep=" ")
