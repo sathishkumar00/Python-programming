@@ -9,4 +9,4 @@ if(s>t):
 elif(t>s):
      print(r)
 else:
-     print(q)
+     print(r)
