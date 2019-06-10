@@ -1,0 +1,7 @@
+p=int(input())
+q=input()
+q=q.split(" ")
+q=list(map(int,q))
+r=min(q)
+s=max(q)
+print(r,s)
