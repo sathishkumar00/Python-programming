@@ -1,3 +1,3 @@
-p=int(input())
-q=p+1
-print(q)
+c=int(input())
+d=c+1
+print(d)
