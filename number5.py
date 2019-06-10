@@ -1,2 +1,3 @@
 p=input()
-print(p[0],p[1],p[2])
+p=list(map(int,p))
+print(*p,sep=" ")
