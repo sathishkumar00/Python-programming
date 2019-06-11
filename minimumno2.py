@@ -1,0 +1,5 @@
+c=input()
+c=c.split(" ")
+c=list(map(int,c))
+d=min(c)
+print(d)
