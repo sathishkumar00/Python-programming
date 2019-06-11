@@ -1,0 +1,10 @@
+p=input()
+p=p.split("/")
+p=list(map(int,p))
+q=input()
+q=q.split("%")
+q=list(map(int,q))
+r=p[0]//p[1]
+s=q[0]%q[1]
+print(r)
+print(s)
