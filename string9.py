@@ -6,5 +6,5 @@ for i in p:
           c=c+1
 if(c==0):
      print("Yes")
-else;
+else:
      print("No")
