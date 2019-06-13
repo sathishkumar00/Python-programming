@@ -6,5 +6,7 @@ k=p[1]
 q=input()
 q=q.split(" ")
 q=list(map(int,q))
-r=q[-k:]+q[ :-k]
-print(*r,sep=" ")
+for i in range(k):
+  r=[ :len(q)-1]
+  q=q[len(q)-1:]+r
+print(*q,sep=" ")
