@@ -1,2 +1,2 @@
-e=input()
-print(e[ ::-1])
+f=input()
+print(f[ ::-1])
