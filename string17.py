@@ -6,6 +6,6 @@ for i in range(0,len(f)):
            l.append(f[i])
        else:
            g.append(f[i])
-for i in range(0,len(f))
+for i in range(0,len(f)):
    print(g[i],end="")
    print(l[i],end="")
