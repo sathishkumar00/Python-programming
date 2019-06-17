@@ -1,13 +1,5 @@
-def function(f):
-        if(f==0):
-            return False
-        while(f!=1):
-             if(f%2==0):
-                  return False
-             f=f//2
-        return True
 f=int(input())
-if(function(f)):
-       print("yes")
+if(f and(not f & (f-1))):
+        print("yes")
 else:
-       print("no")
+        print("no")
