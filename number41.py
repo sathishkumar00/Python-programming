@@ -5,6 +5,6 @@ h=f[1]
 g=g.split(" ")
 for i in g:
        if(i==h):
-           print("yes")
+           print("Yes")
        else:
-           print("no")
+           print("No")
