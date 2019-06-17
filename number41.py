@@ -6,5 +6,6 @@ g=g.split(" ")
 for i in g:
        if(i==h):
            print("Yes")
-       else:
-           print("No")
+           break
+else:
+   print("No")
