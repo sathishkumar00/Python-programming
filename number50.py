@@ -1,0 +1,7 @@
+f=int(input())
+g=input()
+g=g.split(" ")
+g=list(map(int,g))
+h=min(g)
+g.remove(h)
+print(min(g))
