@@ -1,5 +1,6 @@
 e=int(input())
 f=input()
+f=f.strip()
 f=f.split("0")
 f.pop()
 print(*f,sep=" ")
