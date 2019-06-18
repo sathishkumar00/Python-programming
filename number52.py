@@ -1,2 +1,2 @@
-f=input()
-print(len(f))
+g=input()
+print(len(g))
