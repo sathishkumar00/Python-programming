@@ -1,8 +1,13 @@
 l=int(input())
 m=list(map(int,input().split(" ")))
-for i in range(0,len(m)):
-                       n=i+1
-                       for j in range(n,len(m)):
-                           if(m[i]==m[j]):
-                                 p.append(m[i])
-print(m[0])
+m=sorted(m)
+p=[]
+for i in range(len(m)-1):
+  if(m[i]==m[i+1]):
+           p.append(m[i])
+if(p):
+  for j in set(p):
+    print(j,end=" ")
+    break
+else:
+  print("unique")
