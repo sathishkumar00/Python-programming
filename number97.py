@@ -1,5 +1,6 @@
 p=int(input())
 q=list(map(int,input().split(" ")))
+q=sorted(q)
 prod=1
 l=[]
 for i in q:
