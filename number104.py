@@ -1,7 +1,7 @@
-l=list(map(int,input().split(" ")))
-sum=0
+l=input()
+m=[]
 for i in l:
-      sum=sum+i
-      sum=str(sum)
-      if(sum==sum[ ::-1]):
-            print("YES")
+      m.append(int(i))
+n=str(sum(m))
+if(n==n[ ::-1]):
+      print("YES")
