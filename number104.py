@@ -5,3 +5,5 @@ for i in l:
 n=str(sum(m))
 if(n==n[ ::-1]):
       print("YES")
+else:
+      print("NO")
