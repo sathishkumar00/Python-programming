@@ -15,7 +15,7 @@ for i in range(0,p):
                     r=r+1
                if((j!=0) and (q[i][j-1]==0)):
                     r=r+1
-               if(((i==0) and (j==0)) or ((i==p-1) and (j==0)) or ((i==p-1) and (j==(p-1)) or((j==p-1) and (i==0))):
+               if(((i==0) and (j==0)) or ((i==p-1) and (j==0)) or ((i==p-1) and (j==p-1)) or((j==p-1) and (i==0))):
                     s=s+1
                elif(i==1 and j>0 and j<p-1 and r==3):
                     s=s+1
