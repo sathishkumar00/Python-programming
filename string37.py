@@ -7,4 +7,4 @@ for i in range(0,len(p)):
             if(p.count(p[i])==1):
                   l.append(p[i])
                   break
-print(*l,sep="")
+print(*l,sep=" ")
