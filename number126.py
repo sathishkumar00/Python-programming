@@ -1,2 +1,2 @@
 l,m=list(map(int,input().split(" ")))
-print(l >> m)
+print(".%2f" %(l >> m))
