@@ -4,4 +4,4 @@ n=math.factorial(l)
 p=math.factorial(l-m)
 q=math.factorial(m)
 p=p*q
-print(int(p/q))
+print(int(n/p))
