@@ -1,4 +1,4 @@
 p=int(input())
-q=input()
+q=list(map(int,input().split(" ")))
 r=set(q)
-print(*r,sep=" ")
+print(*r)
