@@ -1,8 +1,6 @@
 l=int(input())
 m=list(map(int,input().split(" ")))
-sum=0
-n=sorted(m)
-n.remove(n[0])
-for i in n:
-       sum=sum+i
-print(sum)
+n=0
+for i in range(0,l-1):
+       n=n+max(m[i],m[i+1])
+print(n)
