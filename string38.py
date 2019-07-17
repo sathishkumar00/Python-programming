@@ -1,5 +1,4 @@
-d=list(input().split(" "))
-e=list(input().split(" "))
-for i in d:
-      if(i==e):
-           print(d.index(i)+1)
+d=list(map(str,input().split(" ")))
+e=input()
+if e in d:
+      print(d.index(e)+1)
