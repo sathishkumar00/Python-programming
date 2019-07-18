@@ -1,10 +1,5 @@
-p,q,r=list(map(int,input().split("/")))
-q=str(q)
-r=str(r)
-if(len(q)==2):
-       if(p<=12 and int(q)<=12 and len(r)==4):
-              print("yes")
-       else:
-              print("no")
+p=list(map(int,input().split("/")))
+if(p[0]<=31 and p[1]<=12 and len(str(p[2]))==4):
+       print("yes")
 else:
-   print("no")
+       print("no")
