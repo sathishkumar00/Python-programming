@@ -1,12 +1,10 @@
-d=int(input())
-e=list(map(int,input().split(" ")))
-f=[]
-sum=0
-if(len(e)==1):
-      print(*e)
-for i in e:
-     if(i%2==0):
-         sum=sum+i
-         f.append(sum)
-print(*f,sep=" ")
-          
+l=int(input())
+m=[int(i) for i in input().split(" ")]
+n=[]
+for i in range(l):
+      p=m[ :i+1]
+      if(sum(p)%2==0):
+            n.append(str(sum(p)))
+      else:
+            n.append(str(p[i]))
+print(*n,sep=" ")
