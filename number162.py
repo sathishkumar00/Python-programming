@@ -3,7 +3,6 @@ n=list(map(int,input().split(" ")))
 a=[]
 for i in range(m):
         p,q=list(map(int,input().split(" ")))
-        a.append(min(n[p-1:q]))
-for i in a:
-     print(i)
+for i in range(0,m):
+        print(min(n[p-1:q]))
           
