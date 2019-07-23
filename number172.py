@@ -1,12 +1,11 @@
 d,e=list(map(int,input().split(" ")))
 f=list(map(int,input().split(" ")))
-c=0
+l=[]
 for i in f:
-    if e in f:
-           c+=1
-    else:
-           c=0
-if(c>0):
-    print("yes",c)
+    if(i==e):
+        l.append(i)
+if(len(l)>0):
+    print("yes",2)
 else:
     print("no")
+    
