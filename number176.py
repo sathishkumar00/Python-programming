@@ -7,5 +7,5 @@ else:
    for i in f:
            if(i<e):
               g.append(i)
-           g=sorted(g)
-           print(g[-1])
+g=sorted(g)
+print(g[-1])
