@@ -18,4 +18,9 @@ else:
   for i in g:
      if i not in h:
            f.append(i)
+if(len(g)==1 and len(h)==1):
+      for i in g:
+            f.append(i)
+      for j in h:
+            f.append(j)
 print(*f,sep=" ")
