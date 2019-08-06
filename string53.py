@@ -17,8 +17,14 @@ if(len(d)==len(e)):
              if i not in f:
                    k.append("1:")
                    k.append(g[i])
-       print(*k[0:2],sep="")
-       print(*h[0:2],sep="")
+       if(k==[]):
+              pass
+       else:
+              print(*k[0:2],sep="")
+       if(h==[]):
+              pass
+       else:
+              print(*h[0:2],sep="")
 else:
    for i in f:
        if i not in g:
@@ -28,8 +34,14 @@ else:
        if i not in f:
              k.append("1:")
              k.append(i)
-   print(*k,sep=" ")
-   print(*h,sep=" ")
+   if(k==[]):
+       pass
+   else:
+       print(*k,sep=" ")
+   if(h==[]):
+       pass
+   else:
+       print(*h,sep=" ")
 if(len(f)==1 and len(g)==1):
        for i in f:
             h.append("2:")
@@ -37,6 +49,12 @@ if(len(f)==1 and len(g)==1):
        for i in g:
             k.append("1:")
             k.append(i)
-       print(*k,sep=" ")
-       print(*h,sep=" ")
+       if(k==[]):
+              pass
+       else:
+              print(*k,sep=" ")
+       if(h==[]):
+              pass
+       else:
+              print(*h,sep=" ")
                    
