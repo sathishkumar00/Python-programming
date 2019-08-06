@@ -1,8 +1,8 @@
-l,m=input().split(" ")
-l=list(l)
-m=list(m)
-for i in l:
-     if i in m:
+d,e=input().split(" ")
+d=list(d)
+e=list(e)
+for i in d:
+     if i in e:
          print("true")
          break
      else:
